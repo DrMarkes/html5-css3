@@ -1,0 +1,269 @@
+* {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+	max-width: 1280px;
+}
+
+.header {
+    padding: 50px;
+    background-color: rgb(68, 81, 97);
+    color: white;
+    text-align: left;
+    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.3);
+}
+
+.header h1 {
+    margin-top: 0;
+    margin-bottom: 50px;
+    font-size: 4em;
+    font-weight: 400;
+    text-align: left;
+    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.3);
+}
+
+.header ul {
+    list-style-image: url("../img/check icon.png");
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 36px;
+}
+
+.header .image {
+    background-color: #ffffff;
+	width: 469px;
+	height: 214px;
+}
+
+article {
+    padding: 50px;
+}
+
+article h2 {
+    color: #445161;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36px;
+    text-align: left;
+    margin-bottom: 30px;
+    margin-top: 0;
+}
+
+article h4 {
+	color: #445161;
+	font-size: 24px;
+	font-weight: 400;
+	line-height: 30px;
+	text-align: left;
+}
+
+article p {
+    color: #445161;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+}
+
+.bg-white .image {
+    background-color: #445161;
+	width: 430px;
+	height: 245px;
+}
+
+.dignity {
+    background-color: #f5f5f5;
+}
+
+.dignity h2 {
+    text-align: center;
+}
+
+.dignity img {
+	margin-top: 20px;
+	float: left;
+}
+
+.dignity p {
+	margin-left: 40px;
+}
+
+.screenshots h2 {
+	text-align: center;
+}
+
+.screenshots .image {
+	background-color: #445161;
+	width: 200px;
+	height: 150px;
+	float: left;
+}
+
+.screenshots .description {
+	margin-left: 210px;
+}
+
+.screenshots header {
+	padding: 0;
+}
+
+.screenshots h4 {
+	margin: 0;
+}
+
+.screenshots p {
+	margin-top: 8px;
+}
+
+.reviews {
+	background-color: #f5f5f5;
+	text-align: center;
+}
+
+.reviews h2 {
+	text-align: center;
+}
+
+.reviews .image {
+	height: 75px;
+	width: 75px;
+	border-radius: 100px;
+	background-color: #445160;
+	float: left;
+}
+
+.reviews .description {
+	background-color: #ecebec;
+	margin-left: 100px;
+	margin-bottom: 20px;
+	color:  #333333;
+	font-size: 14px;
+	font-style: italic;
+	line-height: 18px;
+	text-align: left;
+	padding: 20px;
+	position: relative;
+	border-radius: 12px;
+}
+
+.reviews .description:before {
+	content:"";
+	position: absolute;
+	right: 100%;
+	top: 26px;
+	width: 0;
+	height: 0; 
+	border-top: 10px solid transparent;
+	border-right: 20px solid #ecebec;
+	border-bottom: 10px solid transparent;
+}
+
+.reviews .description p {
+	margin-top: 0;
+}
+
+.buy {
+	padding: 50px;
+}
+
+.buy h2{
+	color: #445161;
+	font-size: 30px;
+	font-weight: 400;
+	line-height: 36px;
+	text-align: center;
+}	
+
+.card {
+	background-color: #445161;
+	margin: 0 10px;
+	padding: 0;
+	border-radius: 5px;
+}
+
+.card h4 {
+	color:  #ffffff;
+	font-size: 24px;
+	font-weight: 400;
+	line-height: 30px;
+	text-align: center;
+	margin: 16px 0 16px 0;
+}
+
+.card h2 {
+	background-color: #ffffff;
+	color:  #445162;
+	font-size: 40px;
+	font-weight: 400;
+	line-height: 71px;
+	margin: 0;
+	border: 2px solid #445162;
+}
+
+.card .ol {
+	padding: 20px;
+	margin: 0;
+}
+
+.ol ol {
+	padding-left: 20px;
+	color:  #ffffff;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 24px;
+	text-align: left;
+}
+
+.card .ol a {
+	display: block;
+	height: 40px;
+	padding-top: 10px;
+	text-decoration: none;
+	width: 100%;
+	text-align: center;
+	border-radius: 5px;
+	background-color:  #ffffff;
+	color:  #445161;
+	font-size: 18px;
+	font-weight: 700;
+	line-height: 18px;
+}
+
+footer {
+	padding: 50px;
+	background-color: #445162;
+}
+
+footer h2 {
+	text-align: center;
+	color: white;
+	margin-bottom: 30px;
+}
+
+.form input {
+	border-radius: 5px;
+	background-color: #ffffff;
+	height: 40px;
+	margin-bottom: 20px;
+}
+
+.form textarea {
+	border-radius: 5px;
+	background-color:  #ffffff;
+	height: 170px;
+	color:  #445162;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 24px;
+	text-align: left;
+	margin-bottom: 20px;
+}
+
+.form input[type="submit"] {
+	color:  #445162;
+	font-size: 16px;
+	font-weight: 700;
+	line-height: 24px;
+	text-align: center;
+}
